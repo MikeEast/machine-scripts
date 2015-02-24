@@ -5,13 +5,15 @@ Enable-MicrosoftUpdate
 Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
 
 #Runtimes and frameworks
-cinst DotNet4.0
-cinst DotNet4.5
-cinst DotNet4.5.1
+cinst dotnet4.0
+cinst dotnet4.5
+cinst dotnet4.5.1
+cinst dotnet4.5.2
 cinst javaruntime
 cinst nodejs.install
 cinst ruby
 cinst python
+cinst golang
 
 #Windows enhancements and helpers
 cinst classic-shell
@@ -31,11 +33,18 @@ cinst fiddler4
 #Text editors
 cinst SublimeText3
 cinst SublimeText3.PackageControl
-#cinst markdownpad2
 
 #Utilities
 cinst dotPeek
 cinst 7zip
+cinst greenshot
+cinst googledrive
+cinst sysinternals
+cinst filezilla
+cinst paint.net
+cinst linqpad
+cinst spotify
+cinst f.lux
 
 #Visual studio and plugins
 cinst VisualStudio2013Professional -InstallArguments "/Features:'WebTools SQL'"
@@ -46,9 +55,11 @@ cinst visualstudio2013-webessentials.vsix
 #VCS
 cinst gitextensions
 cinst kdiff3
+cinst p4merge
 
 #Databases
-#cinst sqlserver2014express
+choco install mongodb
+choco install robomongo
 
 #Install windows updates
 Install-WindowsUpdate -AcceptEula

@@ -61,5 +61,10 @@ cinst p4merge
 choco install mongodb
 choco install robomongo
 
+#other
+cinst arduino
+cinst visualstudiocode
+cinst windirstat
+
 #Install windows updates
 Install-WindowsUpdate -AcceptEula

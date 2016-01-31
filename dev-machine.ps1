@@ -11,50 +11,50 @@ cinst dotnet4.5.1
 cinst dotnet4.5.2
 cinst javaruntime
 cinst nodejs.install
-cinst ruby
-cinst python
-cinst golang
+#cinst ruby
+#cinst python
+#cinst golang
 
 #Windows enhancements and helpers
-cinst classic-shell
-cinst webpi
-cinst ConEmu
-cinst ransack
+#cinst classic-shell
+#cinst webpi
+#cinst ConEmu
+#cinst ransack
 
 #Web browsers
-cinst GoogleChrome
+#cinst GoogleChrome
 cinst GoogleChrome.Canary
 cinst Firefox
-cinst safari
+#cinst safari
 
 #Browser plugins
-cinst fiddler4
+#cinst fiddler4
 
 #Text editors
 cinst SublimeText3
 cinst SublimeText3.PackageControl
 
 #Utilities
-cinst dotPeek
-cinst 7zip
+#cinst dotPeek
+#cinst 7zip
 cinst greenshot
 cinst googledrive
 cinst sysinternals
-cinst filezilla
+#cinst filezilla
 cinst paint.net
 cinst linqpad
 cinst spotify
 cinst f.lux
 
 #Visual studio and plugins
-cinst VisualStudio2013Professional -InstallArguments "/Features:'WebTools SQL'"
-cinst resharper -Version 8.2.3000.5176
-cinst VS2013.VSCommands
-cinst visualstudio2013-webessentials.vsix
+cinst visualstudio2015community -InstallArguments "/Features:'WebTools SQL'"
+cinst resharper
+#cinst VS2013.VSCommands
+#cinst visualstudio2013-webessentials.vsix
 
 #VCS
 cinst gitextensions
-cinst kdiff3
+#cinst kdiff3
 cinst p4merge
 
 #Databases
